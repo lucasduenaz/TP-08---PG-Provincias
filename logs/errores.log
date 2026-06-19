@@ -1,0 +1,22 @@
+2026-06-19T11:27:42.306Z: error - connect ECONNREFUSED 127.0.0.1:5432
+Stack Trace:
+Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+
+2026-06-19T11:27:42.308Z: error - connect ECONNREFUSED 127.0.0.1:5432
+Stack Trace:
+Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+
+2026-06-19T11:40:09.369Z: error - 
+Stack Trace:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+
+2026-06-19T11:40:09.370Z: error - 
+Stack Trace:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+

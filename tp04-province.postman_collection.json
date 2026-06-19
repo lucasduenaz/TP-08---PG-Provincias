@@ -1,0 +1,90 @@
+{
+  "info": {
+    "name": "TP04 - Province API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET - Listar todas las provincias",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/province",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "province"]
+        }
+      }
+    },
+    {
+      "name": "GET - Obtener provincia por id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/province/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "province", "1"]
+        }
+      }
+    },
+    {
+      "name": "POST - Crear provincia",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Chaco Provincia\",\n    \"full_name\": \"Provincia de Chaco\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/province",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "province"]
+        }
+      }
+    },
+    {
+      "name": "PUT - Actualizar provincia",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\": 1,\n    \"name\": \"Provincia Modificada\",\n    \"full_name\": \"Provincia Modificada\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/province",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "province"]
+        }
+      }
+    },
+    {
+      "name": "DELETE - Eliminar provincia por id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/province/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "province", "1"]
+        }
+      }
+    }
+  ]
+}

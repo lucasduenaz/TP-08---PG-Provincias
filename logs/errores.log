@@ -20,3 +20,653 @@ AggregateError [ECONNREFUSED]:
     at internalConnectMultiple (node:net:1134:18)
     at afterConnectMultiple (node:net:1715:7)
 
+2026-06-29T14:58:21.682Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:21.702Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.194Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.210Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.435Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.459Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.636Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.660Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.809Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.810Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:22.985Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.004Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.148Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.160Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.312Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.330Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.475Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.476Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.619Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:23.638Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:31.467Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T14:58:31.481Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:07.586Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:07.603Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.203Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.219Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.707Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.721Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.891Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:27.893Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.056Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.080Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.212Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.236Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.370Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.392Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.536Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:03:28.538Z: error - la autentificaci�n password fall� para el usuario �postgres�
+Stack Trace:
+error: la autentificaci�n password fall� para el usuario �postgres�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:16.272Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:16.288Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:16.924Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:16.936Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:17.353Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:17.367Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:17.784Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:17.801Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:18.618Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:18.636Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:51.984Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+
+2026-06-29T15:05:52.009Z: error - no existe la base de datos �tp04_province�
+Stack Trace:
+error: no existe la base de datos �tp04_province�
+    at parseErrorMessage (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\devandroid\TP-08---PG-Provincias\node_modules\pg-protocol\dist\index.js:12:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+

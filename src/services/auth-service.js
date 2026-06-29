@@ -48,4 +48,43 @@ export default class AuthService {
 
         return { error: null, token };
     }
+
+    /**
+     * Registra un nuevo usuario.
+     * @param {string} username
+     * @param {string} password     - Contraseña en texto plano.
+     * @param {string} passwordConfirm - Confirmación de contraseña.
+     * @returns {Object} { error, user }
+     */
+    registerAsync = async (username, password, passwordConfirm) => {
+
+        // 1. Validaciones
+        if (!username || username.trim().length === 0) {
+            return { error: 'El username es obligatorio.', user: null };
+        }
+        if (username.trim().length < 3) {
+            return { error: 'El username debe tener al menos 3 caracteres.', user: null };
+        }
+        if (!password || password.length === 0) {
+            return { error: 'La contraseña es obligatoria.', user: null };
+        }
+        if (password.length < 6) {
+            return { error: 'La contraseña debe tener al menos 6 caracteres.', user: null };
+        }
+        if (password !== passwordConfirm) {
+            return { error: 'Las contraseñas no coinciden.', user: null };
+        }
+
+        // 2. Verificar que el username no esté tomado
+        const existing = await this.repository.getByUsernameAsync(username.trim());
+        if (existing) {
+            return { error: 'Ese nombre de usuario ya está en uso.', user: null };
+        }
+
+        // 3. Hashear la contraseña y crear el usuario
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const user = await this.repository.createUserAsync(username.trim(), hashedPassword);
+
+        return { error: null, user };
+    }
 }

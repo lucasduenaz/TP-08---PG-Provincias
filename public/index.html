@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar sesión — Provincias</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="login-body">
+
+    <div class="login-card">
+
+        <!-- Ícono y título -->
+        <div class="login-header">
+            <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+            </svg>
+            <h1>Provincias</h1>
+            <p id="formSubtitle">Ingresá tus credenciales para continuar</p>
+        </div>
+
+        <!-- ── FORMULARIO DE LOGIN ── -->
+        <form id="loginForm" class="login-form" novalidate>
+            <div class="form-group">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username"
+                    placeholder="Ingresá tu usuario"
+                    autocomplete="username" required />
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password"
+                    placeholder="Ingresá tu contraseña"
+                    autocomplete="current-password" required />
+            </div>
+
+            <div id="loginError" class="error-msg hidden" role="alert"></div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="loginBtn">
+                <span id="loginBtnText">Ingresar</span>
+                <span id="loginBtnSpinner" class="spinner hidden"></span>
+            </button>
+
+            <p class="form-switch-text">
+                ¿No tenés cuenta?
+                <a href="#" id="goToRegister">Crear cuenta</a>
+            </p>
+        </form>
+
+        <!-- ── FORMULARIO DE REGISTRO ── -->
+        <form id="registerForm" class="login-form hidden" novalidate>
+            <div class="form-group">
+                <label for="regUsername">Usuario</label>
+                <input type="text" id="regUsername" name="regUsername"
+                    placeholder="Elegí un nombre de usuario"
+                    autocomplete="username" required />
+            </div>
+            <div class="form-group">
+                <label for="regPassword">Contraseña</label>
+                <input type="password" id="regPassword" name="regPassword"
+                    placeholder="Mínimo 6 caracteres"
+                    autocomplete="new-password" required />
+            </div>
+            <div class="form-group">
+                <label for="regPasswordConfirm">Repetir contraseña</label>
+                <input type="password" id="regPasswordConfirm" name="regPasswordConfirm"
+                    placeholder="Repetí la contraseña"
+                    autocomplete="new-password" required />
+            </div>
+
+            <div id="registerError"   class="error-msg   hidden" role="alert"></div>
+            <div id="registerSuccess" class="success-msg hidden" role="alert"></div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="registerBtn">
+                <span id="registerBtnText">Crear cuenta</span>
+                <span id="registerBtnSpinner" class="spinner hidden"></span>
+            </button>
+
+            <p class="form-switch-text">
+                ¿Ya tenés cuenta?
+                <a href="#" id="goToLogin">Iniciar sesión</a>
+            </p>
+        </form>
+
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

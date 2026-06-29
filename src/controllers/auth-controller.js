@@ -37,4 +37,28 @@ router.post('/login', async (req, res) => {
     }
 });
 
+/**
+ * POST /api/auth/register
+ * Body: { username, password, passwordConfirm }
+ * Retorna 201 (Created) y el usuario creado si el registro fue exitoso.
+ * Retorna 400 (Bad Request) si hay errores de validación o username duplicado.
+ */
+router.post('/register', async (req, res) => {
+    try {
+        const { username, password, passwordConfirm } = req.body;
+
+        const { error, user } = await service.registerAsync(username, password, passwordConfirm);
+
+        if (error) {
+            return res.status(StatusCodes.BAD_REQUEST).send(error);
+        }
+
+        res.status(StatusCodes.CREATED).json(user);
+
+    } catch (error) {
+        LogHelper.logError(error);
+        res.status(StatusCodes.INTERNAL_SERVER_ERROR).send('Ocurrió un error interno.');
+    }
+});
+
 export default router;

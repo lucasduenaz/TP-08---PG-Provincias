@@ -11,6 +11,9 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
+// ── Archivos estáticos (frontend) ─────────────────────────────────────────────
+app.use(express.static('public'));
+
 // ── Rutas públicas (no requieren token) ──────────────────────────────────────
 app.use("/api/auth", AuthRouter);
 

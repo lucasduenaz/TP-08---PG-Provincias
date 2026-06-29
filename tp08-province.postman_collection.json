@@ -1,90 +1,149 @@
 {
   "info": {
-    "name": "TP04 - Province API",
+    "name": "TP08 - Province API + JWT Auth",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
-      "name": "GET - Listar todas las provincias",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "http://localhost:3000/api/province",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3000",
-          "path": ["api", "province"]
+      "name": "🔐 Auth",
+      "item": [
+        {
+          "name": "POST - Login (obtener token)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "if (json.token) {",
+                  "    pm.collectionVariables.set('jwt_token', json.token);",
+                  "    console.log('Token guardado en variable jwt_token');",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"username\": \"admin\",\n    \"password\": \"Admin123!\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/auth/login",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "auth", "login"]
+            }
+          }
         }
-      }
+      ]
     },
     {
-      "name": "GET - Obtener provincia por id",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": {
-          "raw": "http://localhost:3000/api/province/1",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3000",
-          "path": ["api", "province", "1"]
-        }
-      }
-    },
-    {
-      "name": "POST - Crear provincia",
-      "request": {
-        "method": "POST",
-        "header": [
-          { "key": "Content-Type", "value": "application/json" }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"name\": \"Chaco Provincia\",\n    \"full_name\": \"Provincia de Chaco\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+      "name": "🗺️ Provincias (requieren token)",
+      "item": [
+        {
+          "name": "GET - Listar todas las provincias",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{jwt_token}}" }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/province",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "province"]
+            }
+          }
         },
-        "url": {
-          "raw": "http://localhost:3000/api/province",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3000",
-          "path": ["api", "province"]
-        }
-      }
-    },
-    {
-      "name": "PUT - Actualizar provincia",
-      "request": {
-        "method": "PUT",
-        "header": [
-          { "key": "Content-Type", "value": "application/json" }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"id\": 1,\n    \"name\": \"Provincia Modificada\",\n    \"full_name\": \"Provincia Modificada\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+        {
+          "name": "GET - Obtener provincia por id",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{jwt_token}}" }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/province/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "province", "1"]
+            }
+          }
         },
-        "url": {
-          "raw": "http://localhost:3000/api/province",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3000",
-          "path": ["api", "province"]
+        {
+          "name": "POST - Crear provincia",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{jwt_token}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"Chaco Provincia\",\n    \"full_name\": \"Provincia de Chaco\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/province",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "province"]
+            }
+          }
+        },
+        {
+          "name": "PUT - Actualizar provincia",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Authorization", "value": "Bearer {{jwt_token}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": 1,\n    \"name\": \"Provincia Modificada\",\n    \"full_name\": \"Provincia Modificada\",\n    \"latitude\": -24.895086288452148,\n    \"longitude\": -59.93218994140625,\n    \"display_order\": 100\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/province",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "province"]
+            }
+          }
+        },
+        {
+          "name": "DELETE - Eliminar provincia por id",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Authorization", "value": "Bearer {{jwt_token}}" }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/api/province/1",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["api", "province", "1"]
+            }
+          }
         }
-      }
-    },
+      ]
+    }
+  ],
+  "variable": [
     {
-      "name": "DELETE - Eliminar provincia por id",
-      "request": {
-        "method": "DELETE",
-        "header": [],
-        "url": {
-          "raw": "http://localhost:3000/api/province/1",
-          "protocol": "http",
-          "host": ["localhost"],
-          "port": "3000",
-          "path": ["api", "province", "1"]
-        }
-      }
+      "key": "jwt_token",
+      "value": ""
     }
   ]
 }

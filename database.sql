@@ -10,7 +10,9 @@
 --
 -- Luego conectate a la base "tp04_province" y ejecutá el resto.
 
--- 2) Creación de la tabla provinces
+-- ============================================
+-- 2) Tabla de provincias
+-- ============================================
 CREATE TABLE IF NOT EXISTS provinces (
     id             SERIAL PRIMARY KEY,
     name           VARCHAR(100) NOT NULL,
@@ -20,7 +22,7 @@ CREATE TABLE IF NOT EXISTS provinces (
     display_order  INTEGER DEFAULT 0
 );
 
--- 3) Datos de ejemplo (provincias argentinas)
+-- Datos de ejemplo (provincias argentinas)
 INSERT INTO provinces (name, full_name, latitude, longitude, display_order) VALUES
 ('Buenos Aires',       'Provincia de Buenos Aires',       -36.6769, -60.5588, 10),
 ('Córdoba',            'Provincia de Córdoba',            -31.4201, -64.1888, 20),
@@ -32,3 +34,21 @@ INSERT INTO provinces (name, full_name, latitude, longitude, display_order) VALU
 ('Neuquén',            'Provincia de Neuquén',            -38.9516, -68.0591, 80),
 ('Tucumán',            'Provincia de Tucumán',            -26.8083, -65.2176, 90),
 ('Entre Ríos',         'Provincia de Entre Ríos',         -32.0667, -59.0500, 100);
+
+-- ============================================
+-- 3) Tabla de usuarios (login con JWT)
+-- ============================================
+CREATE TABLE IF NOT EXISTS users (
+    id         SERIAL PRIMARY KEY,
+    username   VARCHAR(100) NOT NULL UNIQUE,
+    password   VARCHAR(255) NOT NULL,   -- almacena el hash bcrypt
+    role       VARCHAR(50)  NOT NULL DEFAULT 'user',
+    created_at TIMESTAMP    NOT NULL DEFAULT NOW()
+);
+
+-- Usuario de prueba: admin / Admin123!
+--   Hash generado con bcryptjs, 10 rounds.
+--   Para generar tu propio hash podés usar: https://bcrypt-generator.com/
+INSERT INTO users (username, password, role) VALUES
+('admin', '$2b$10$y2s68Lq/5XQV5tdRo/EN6.jRZobixdfRrrP9C6AQt2WU8lyp5n3Z6', 'admin')
+ON CONFLICT (username) DO NOTHING;

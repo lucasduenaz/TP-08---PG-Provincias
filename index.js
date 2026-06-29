@@ -1,22 +1,23 @@
-import express  from "express";
-import cors     from "cors";
-import ProvinceRouter from "./src/controllers/province-controller.js"
+import express        from "express";
+import cors           from "cors";
+import ProvinceRouter from "./src/controllers/province-controller.js";
+import AuthRouter     from "./src/controllers/auth-controller.js";
+import verifyToken    from "./src/middlewares/jwt-middleware.js";
 
 const app  = express();
-const port = 3000;       // El puerto 3000 (http://localhost:3000)
+const port = 3000;
 
-// Agrego los Middlewares
-app.use(cors());         // Middleware de CORS.
-app.use(express.json()); // Middleware para parsear y comprender JSON.
+// ── Middlewares globales ──────────────────────────────────────────────────────
+app.use(cors());
+app.use(express.json());
 
-//
-// Endpoints (todos los Routers)
-//
-app.use("/api/province", ProvinceRouter);
+// ── Rutas públicas (no requieren token) ──────────────────────────────────────
+app.use("/api/auth", AuthRouter);
 
-//
-// Inicio el Server y lo pongo a escuchar.
-//
+// ── Rutas protegidas (requieren JWT válido) ───────────────────────────────────
+app.use("/api/province", verifyToken, ProvinceRouter);
+
+// ── Inicio del server ─────────────────────────────────────────────────────────
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
+    console.log(`Servidor escuchando en http://localhost:${port}`);
+});
